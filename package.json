@@ -1,12 +1,12 @@
 {
-  "name": "valespring-code-config",
+  "name": "@valespring/valespring-code-config",
   "version": "1.0.0",
   "description": "Configuration for ESLint and Prettier.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Brian Kelley",
   "license": "ISC",
   "dependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
@@ -15,5 +15,14 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valespring/valespring-code-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valespring/valespring-code-config/issues"
+  },
+  "homepage": "https://github.com/valespring/valespring-code-config#readme"
 }
