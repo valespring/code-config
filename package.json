@@ -1,6 +1,6 @@
 {
   "name": "@valespring/valespring-code-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Configuration for ESLint and Prettier.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valespring/valespring-code-config.git"
