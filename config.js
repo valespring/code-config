@@ -1,3 +1,4 @@
+// Load editor config object
 const editorconfig = require('editorconfig');
 const path = require('path');
 const configPath = path.join(__dirname, '/.editorconfig');
