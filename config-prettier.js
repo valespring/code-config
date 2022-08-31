@@ -1,8 +1,10 @@
 // Separating to be modularly included
+const path = require('path');
 const editorConfig = require('./config');
 
 const prettierInitialConfig = {
   trailingComma: "none",
+  singleQuote: true,
   semi: true
 };
 
@@ -15,4 +17,4 @@ const prettierParsedConfig = {
 const prettierDefaultConfig = {...prettierInitialConfig, ...prettierParsedConfig};
 
 exports.default = prettierDefaultConfig;
-exports.scss = Object.assign({}, prettierDefaultConfig, {extensions: ['.scss']});
+exports.scss = Object.assign({}, prettierDefaultConfig, {extensions: ['.scss'], configFile: path.resolve(__dirname, 'prettier.config')});
