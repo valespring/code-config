@@ -1,20 +1,21 @@
 {
   "name": "@valespring/code-config",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Configuration for ESLint and Prettier.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint .",
+    "lint:debug": "DEBUG=eslint:flat-eslint,eslint:cli-engine npm run lint",
+    "lint:fix": "npm run lint -- --fix --format summary"
   },
   "author": "Brian Kelley",
   "license": "ISC",
-  "dependencies": {
-    "@rushstack/eslint-patch": "^1.1.4",
-    "@typescript-eslint/parser": "^5.33.0",
-    "editorconfig": "^0.15.3",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1"
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.6.4",
+    "editorconfig": "^2.0.0",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-formatter-summary": "^1.0.2"
   },
   "repository": {
     "type": "git",
