@@ -1,6 +1,6 @@
 {
-  "name": "@valespring/code-config",
-  "version": "2.0.0",
+  "name": "@place-framework/code-config",
+  "version": "2.0.1",
   "description": "Configuration for ESLint and Prettier.",
   "main": "index.js",
   "scripts": {
