@@ -12,15 +12,15 @@
 PLACE Code Config
 ====
 
+![Place Framework Ecosystem Diagram](https://raw.githubusercontent.com/valespring/place-framework/master/docs/ecosystem-diagram.jpg?sanitize=true)
+
 ## Introduction
 
 This configuration is my personal preferences, linters, and rules when it comes to writing frontend code. It is entirely optional to use in conjunction with your project, and is the baseline default option for the [Place Webpack Preset](https://www.npmjs.com/package/@place-framework/place-webpack-preset).
 
 ## Implementation
 
-![Place Framework Ecosystem Diagram](https://raw.githubusercontent.com/valespring/place-framework/master/docs/ecosystem-diagram.jpg?sanitize=true)
-
-There are the following configuration files for each formatting system:
+The following configuration files for each formatting system are as follows:
 
 - `babel.config.js` 
 	- Key: `BABEL_CONFIG`
