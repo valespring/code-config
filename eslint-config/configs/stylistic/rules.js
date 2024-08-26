@@ -1,9 +1,10 @@
 module.exports = {
-	'@stylistic/array-element-newline': [
-		'error', {
-			minItems: 3
+	'@stylistic/array-element-newline': ['error', {
+		'ArrayExpression': 'consistent',
+		'ArrayPattern': {
+			'minItems': 3
 		}
-	],
+	}],
 	'@stylistic/array-bracket-newline': ['error', 'consistent'],
 	'@stylistic/array-bracket-spacing': ['error', 'never'],
 	'@stylistic/arrow-spacing': 'error',
@@ -27,13 +28,10 @@ module.exports = {
 		}
 	],
 	'@stylistic/no-trailing-spaces': 'error',
-	'@stylistic/object-curly-newline': [
-		'error', {
-			'consistent': true,
-			'multiline': true,
-			'minProperties': 2
-		}
-	],
+	'@stylistic/object-curly-newline': ['error', {
+		'ObjectExpression': { 'consistent': true },
+		'ObjectPattern': 'never'
+	}],
 	'@stylistic/object-curly-spacing': [
 		'error',
 		'always',
@@ -47,6 +45,7 @@ module.exports = {
 			'allowAllPropertiesOnSameLine': true
 		}
 	],
+	'@stylistic/operator-linebreak': ['error', 'none'],
 	'@stylistic/padding-line-between-statements': [
 		'error', {
 			blankLine: 'any',
@@ -72,7 +71,9 @@ module.exports = {
 	'@stylistic/semi': [
 		'error',
 		'always',
-		{ 'omitLastInOneLineClassBody': true }
+		{
+			'omitLastInOneLineClassBody': true
+		}
 	],
 	'@stylistic/space-before-blocks': 'error',
 	'@stylistic/space-infix-ops': 'error',

@@ -1,18 +1,6 @@
-// Separating to be modularly included
-const EDITOR_CONFIG = require('../editor-config');
-
-const prettierInitialConfig = {
-	trailingComma: 'none',
-	singleQuote: true,
-	semi: true
-};
-
-// Custom use with .editorconfig
-const prettierParsedConfig = {
-	tabWidth: EDITOR_CONFIG.tab_width,
-	useTabs: EDITOR_CONFIG.indent_style === 'tab'
-};
+const PRETTIER_EDITOR_CONFIG = require('./configs/editor');
+const PRETTIER_USER_CONFIG = require('./configs/user');
 
 module.exports = {
-	...prettierInitialConfig, ...prettierParsedConfig
+	...PRETTIER_EDITOR_CONFIG, ...PRETTIER_USER_CONFIG
 };
