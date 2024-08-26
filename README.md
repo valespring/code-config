@@ -1,4 +1,4 @@
-![Place Framework Header](https://raw.githubusercontent.com/valespring/place-framework/master/docs/logo-header.gif?sanitize=true)
+![PLACE Framework Header](https://raw.githubusercontent.com/valespring/place-framework/master/docs/logo-header.gif?sanitize=true)
 
 
 <p align="center">
@@ -12,11 +12,11 @@
 PLACE Code Config
 ====
 
-![Place Framework Ecosystem Diagram](https://raw.githubusercontent.com/valespring/place-framework/master/docs/ecosystem-diagram.jpg?sanitize=true)
+![PLACE Framework Ecosystem Diagram](https://raw.githubusercontent.com/valespring/place-framework/master/docs/ecosystem-diagram.jpg?sanitize=true)
 
 ## Introduction
 
-This configuration is my personal preferences, linters, and rules when it comes to writing frontend code. It is entirely optional to use in conjunction with your project, and is the baseline default option for the [Place Webpack Preset](https://www.npmjs.com/package/@place-framework/place-webpack-preset).
+This configuration is my personal preferences, linters, and rules when it comes to writing frontend code. It is entirely optional to use in conjunction with your project, and is the baseline default option for the [PLACE Webpack Preset](https://www.npmjs.com/package/@place-framework/place-webpack-preset).
 
 ## Implementation
 
