@@ -1,6 +1,6 @@
 {
   "name": "@place-framework/code-config",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Configuration for ESLint and Prettier.",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "@stylistic/eslint-plugin": "^2.6.4",
-    "editorconfig": "^2.0.0",
+    "editorconfig": "^3.0.2",
     "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-formatter-summary": "^1.0.2",
     "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-recommended-scss": "^14.1.0"
   },
